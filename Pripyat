@@ -4,7 +4,7 @@ Udpate
 sudo ~/servers/steamcmd/steamcmd.sh +force_install_dir ~/servers/dayz-server/ +login iceman10099 +app_update 223350 +workshop_download_item 221100 3136720512 +workshop_download_item 221100 2868091107 +workshop_download_item 221100 3038290111 +workshop_download_item 221100 2545327648 +workshop_download_item 221100 2276010135 +quit
 
 Start 
-sudo ./DayZServer -config=serverDZ.cfg -port=2301 "-mod=3136720512;2868091107;3038290111;2545327648;2276010135;" -BEpath=battleye -profiles=profiles -dologs -adminlog -netlog -freezecheck
+sudo ./DayZServer -config=serverDZ.cfg -port=2301 "-mod=2868091107;3136720512;3038290111;2545327648;2276010135;" -BEpath=battleye -profiles=profiles -dologs -adminlog -netlog -freezecheck
 
 Prypiat
 prypiat  https://steamcommunity.com/sharedfiles/filedetails/?id=3136720512             +workshop_download_item 221100 3136720512
