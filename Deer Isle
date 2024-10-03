@@ -1,0 +1,12 @@
+Deer
+
+Deer Isle 
+https://steamcommunity.com/sharedfiles/filedetails/?id=1602372402
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/1602372402 ~/servers/dayz-server/1602372402
+
+
+Update
+sudo ~/servers/steamcmd/steamcmd.sh +force_install_dir ~/servers/dayz-server/ +login your_login +app_update 223350 +workshop_download_item 221100 1602372402 +quit 
+
+Start 
+sudo ./DayZServer -config=serverDZ.cfg -port=2302 "-mod=1602372402;" -BEpath=battleye -profiles=profiles -dologs -adminlog -netlog -freezecheck
