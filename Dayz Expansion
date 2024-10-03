@@ -1,7 +1,7 @@
 Expand
 
 Update 
-sudo ~/servers/steamcmd/steamcmd.sh +force_install_dir ~/servers/dayz-server/ +login iceman10099 +app_update 223350 +workshop_download_item 221100 1559212036 +workshop_download_item 221100 2545327648 +workshop_download_item 221100 1564026768 +workshop_download_item 221100 2116157322 +workshop_download_item 221100 2291785308 +workshop_download_item 221100 2116151222 +workshop_download_item 221100 2792982513 +workshop_download_item 221100 2572324799 +workshop_download_item 221100 2291785437 +workshop_download_item 221100 2804241648 +workshop_download_item 221100 2792983824 +workshop_download_item 221100 2792984177 +workshop_download_item 221100 2792984722 +workshop_download_item 221100 27929850694 +workshop_download_item 221100 2946236937 +workshop_download_item 221100 2793893086 +quit
+sudo ~/servers/steamcmd/steamcmd.sh +force_install_dir ~/servers/dayz-server/ +login iceman10099 +app_update 223350 +workshop_download_item 221100 1559212036 +workshop_download_item 221100 2545327648 +workshop_download_item 221100 1564026768 +workshop_download_item 221100 2116157322 +workshop_download_item 221100 2291785308 +workshop_download_item 221100 2792982513 +workshop_download_item 221100 2572324799 +workshop_download_item 221100 2291785437 +workshop_download_item 221100 2804241648 +workshop_download_item 221100 2792983824 +workshop_download_item 221100 2792984177 +workshop_download_item 221100 2792985069 +workshop_download_item 221100 2946236937 +workshop_download_item 221100 2793893086 +quit
 
 
 Start
