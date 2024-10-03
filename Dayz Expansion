@@ -1,0 +1,42 @@
+Expand
+
+Update 
+sudo ~/servers/steamcmd/steamcmd.sh +force_install_dir ~/servers/dayz-server/ +login iceman10099 +app_update 223350 +workshop_download_item 221100 1559212036 +workshop_download_item 221100 2545327648 +workshop_download_item 221100 1564026768 +workshop_download_item 221100 2116157322 +workshop_download_item 221100 2291785308 +workshop_download_item 221100 2116151222 +workshop_download_item 221100 2792982513 +workshop_download_item 221100 2572324799 +workshop_download_item 221100 2291785437 +workshop_download_item 221100 2804241648 +workshop_download_item 221100 2792983824 +workshop_download_item 221100 2792984177 +workshop_download_item 221100 2792984722 +workshop_download_item 221100 27929850694 +workshop_download_item 221100 2946236937 +workshop_download_item 221100 2793893086 +quit
+
+
+Start
+sudo ./DayZServer -config=serverDZ.cfg -port=2301 "-mod=1559212036;1564026768;2545327648;2116157322;2291785308;2792982513;2572324799;2291785437;2804241648;2792983824;2792984177;2946236937;2793893086;" -BEpath=battleye -profiles=profiles -dologs -adminlog -netlog -freezecheck
+
+Expansion Mods
+framework https://steamcommunity.com/workshop/filedetails/?id=1559212036                           =
+dabs framework https://steamcommunity.com/workshop/filedetails/?id=2545327648                      =
+community online tools https://steamcommunity.com/workshop/filedetails/?id=1564026768              =
+dayz expansion licensed https://steamcommunity.com/workshop/filedetails/?id=2116157322             =
+expansion core https://steamcommunity.com/sharedfiles/filedetails/?id=2291785308                   =
+dayz-expansion https://steamcommunity.com/sharedfiles/filedetails/?id=2116151222                   
+base building https://steamcommunity.com/sharedfiles/filedetails/?id=2792982513                    =
+books https://steamcommunity.com/sharedfiles/filedetails/?id=2572324799                            =
+vehicles https://steamcommunity.com/sharedfiles/filedetails/?id=2291785437                         =
+spwan selection https://steamcommunity.com/sharedfiles/filedetails/?id=2804241648                  =
+maps assests https://steamcommunity.com/sharedfiles/filedetails/?id=2792983824                     =
+expand missions https://steamcommunity.com/sharedfiles/filedetails/?id=2792984177                  =
+navigation https://steamcommunity.com/sharedfiles/filedetails/?id=2792984722                       
+weapons https://steamcommunity.com/sharedfiles/filedetails/?id=2792985069                         =
+personal storage https://steamcommunity.com/sharedfiles/filedetails/?id=2946236937                =
+dayz animations https://steamcommunity.com/sharedfiles/filedetails/?id=2793893086                 =
+dayz bundlehttps://steamcommunity.com/sharedfiles/filedetails/?id=2572331007                      
+
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/1559212036 ~/servers/dayz-server/1559212036
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2545327648 ~/servers/dayz-server/2545327648
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/1564026768 ~/servers/dayz-server/1564026768
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2116157322 ~/servers/dayz-server/2116157322
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2291785308 ~/servers/dayz-server/2291785308
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2792982513 ~/servers/dayz-server/2792982513
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2572324799 ~/servers/dayz-server/2572324799
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2291785437 ~/servers/dayz-server/2291785437
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2804241648 ~/servers/dayz-server/2804241648
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2792983824 ~/servers/dayz-server/2792983824
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2792984177 ~/servers/dayz-server/2792984177
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2792985069 ~/servers/dayz-server/2792985069
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2946236937 ~/servers/dayz-server/2946236937
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2793893086 ~/servers/dayz-server/2793893086
