@@ -1,1 +1,8 @@
+Hellboy
 
+Update
+sudo ~/servers/steamcmd/steamcmd.sh +force_install_dir ~/servers/dayz-server/ +login your_login +app_update 223350 +quit
+
+Start
+cd servers/dayz-server
+sudo ./DayZServer -config=serverDZ.cfg -port=2301 -BEpath=battleye -profiles=profiles -dologs -adminlog -netlog -freezecheck
