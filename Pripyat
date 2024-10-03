@@ -18,3 +18,9 @@ sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2545327648 ~/
 sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2868091107 ~/servers/dayz-server/2868091107
 sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/3038290111 ~/servers/dayz-server/3038290111
 sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2276010135 ~/servers/dayz-server/2276010135
+
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/3136720512/keys/* ~/servers/dayz-server/keys/   =
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2545327648/keys/* ~/servers/dayz-server/keys/   =
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2868091107/keys/* ~/servers/dayz-server/keys/
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/3038290111/keys/* ~/servers/dayz-server/keys/
+sudo ln -s ~/servers/dayz-server/steamapps/workshop/content/221100/2276010135/keys/* ~/servers/dayz-server/keys/
