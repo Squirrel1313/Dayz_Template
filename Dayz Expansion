@@ -5,7 +5,7 @@ sudo ~/servers/steamcmd/steamcmd.sh +force_install_dir ~/servers/dayz-server/ +l
 
 
 Start
-sudo ./DayZServer -config=serverDZ.cfg -port=2301 "-mod=1559212036;1564026768;2545327648;2116157322;2291785308;2792982513;2572324799;2291785437;2804241648;2792983824;2792984177;2946236937;2793893086;" -BEpath=battleye -profiles=profiles -dologs -adminlog -netlog -freezecheck
+sudo ./DayZServer -config=serverDZ.cfg -port=2301 "-mod=1559212036;1564026768;2545327648;2116157322;2291785308;2792982513;2572324799;2291785437;2804241648;2792983824;2792985069;2792984177;2946236937;2793893086;" -BEpath=battleye -profiles=profiles -dologs -adminlog -netlog -freezecheck
 
 Expansion Mods
 framework https://steamcommunity.com/workshop/filedetails/?id=1559212036                           =
